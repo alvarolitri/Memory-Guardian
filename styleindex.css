@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+html{
+	color:white;
+	text-align:center;
+	background-color:#ECF0F1;
+	background: url("fondo.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+
+img.media{
+	margin-right:200%;
+	width: 20%; 
+	height: 20%;
+}
+
+.navegador {
+	font-family: "Lobster";
+    list-style-type: none;
+    margin-left:62%;
+    margin-right:7.89%;
+    overflow: hidden;
+    background-color: #ECF0F1;
+}
+
+a {
+    float: left;
+    display: block;
+    color: #797D7F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color:#B8860B;
+    color:white;
+}
+
+
+.quote{
+	margin-top:16%;
+	margin-left:15%;
+	margin-right:15%;
+	font-family: "Lobster";
+	font-style: italic;
+	font-size: 300%;
+	background-color:#ECF0F1;
+	color:#DAA520;
+}
+
+.autor{
+	margin-left:75%;
+	margin-right:15%;
+	font-family: "Lobster", bold;
+	font-size: 130%;
+	background-color:#ECF0F1;
+	color:#B8860B;
+}
+
+.boton {
+	margin-top:10%;
+	margin-left:50%;
+  	background: url("puerta.jpg");
+  	background-repeat:no-repeat;
+  	background-color:#DAA520;
+  	background-position:center;
+	background-size: 60%; /* Tamaño de la imagen */
+  	height: 100px;  /* Alto del botón */
+  	width: 100px;  /* Ancho del botón */
+  	display: table;
+  	border-radius: 100%;
+  	cursor: pointer;
+    box-shadow:
+	/* Sombras externa */
+	inset 0 10px 15px rgba(255,255,255,.35), inset 0 -10px 15px rgba(0,0,0,.05), inset 10px 0 15px rgba(0,0,0,.05), inset -10px 0 15px rgba(0,0,0,.05),
+	/* Sombra interna */
+	0 5px 20px rgba(0,0,0,.1);
+}
+
+/* Al presionar */
+.boton:active {
+  	box-shadow: inset 0 5px 30px rgba(0,0,0,.2); /* Sombra interior */
+  	background-size: 55%; /* Cambiamos el tamaño de la imagen */
+}

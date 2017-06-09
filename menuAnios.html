@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<link href="logo.ico" type="image/x-icon" rel="shortcut icon" />
+		<title>Men&uacute a&ntildeos</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="stylemenuAnios.css">
+		<script type='text/javascript'>
+		function volver(){
+			window.location.href = "index.html";
+		}
+		function Confirm() {
+			//Ingresamos un mensaje a mostrar
+			var mensaje = confirm("¿Está seguro que desea desconectar su chip?");
+			//Detectamos si el usuario acepto el mensaje
+			if (mensaje) {
+				window.location.href = "apagar.html";
+			}
+		}
+		function anio70(){
+			window.location.href = "recuerdos70.html";
+		}
+		function anio80(){
+			window.location.href = "recuerdos80.html";
+		}
+		function anio90(){
+			window.location.href = "recuerdos90.html";
+		}
+		function actualidad(){
+			window.location.href = "recuerdosActualidad.html";
+		}
+		</script>
+	</head>
+	<body>
+                <input class="boton80" onclick="anio70()" type="button" name="recuerdos" value="A&ntilde;os 70">
+                <input class="boton90" onclick="anio80()" type="button" name="recuerdos" value="A&ntilde;os 80">
+                <input class="boton00" onclick="anio90()" type="button" name="recuerdos" value="A&ntilde;os 90">
+                <input class="boton2k10" onclick="actualidad()" type="button" name="recuerdos" value="Actualidad">
+                <input class="volver" onclick="Confirm()" type="button" name="volver" value="Salir">
+                
+	</body>
+</html>

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+html{
+	color:white;
+	text-align:center;
+	background-color:#ECF0F1;
+	background: url("marco.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.video{
+	margin-top:19%;
+	margin-left:1.1%;
+}
+
+.volver{
+	margin-top:3%;
+	margin-left:80%;
+	width: 10%; 
+	height: 5%;
+	color:black;
+	font-weight:normal;
+	font-size:70%;
+	background:linear-gradient(#DBA901, #B18904);
+	border-color:#717D7E;
+}
+
+.volver:hover {
+    background:linear-gradient(#DF0101, #8A0808);
+}

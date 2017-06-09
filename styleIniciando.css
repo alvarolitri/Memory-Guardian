@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+html{
+	color:white;
+	text-align:center;
+	background-color:#ECF0F1;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+#blink{
+	margin-top:5%;
+	color:Red;
+	font-family: "Lobster";
+}
+
+h1{
+	color:Red;
+	font-family: "Lobster";
+}
+
+h2{
+	color:Red;
+	font-family: "Lobster";
+}
+
+.media{
+	width: 30%; 
+	height: 40%;
+}

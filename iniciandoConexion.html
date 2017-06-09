@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<link href="logo.ico" type="image/x-icon" rel="shortcut icon" />
+		<title>Conectando</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="styleiniciando.css">
+		<META HTTP-EQUIV="REFRESH" CONTENT="6;URL=conexion.html">
+		<script type="text/javascript">
+			window.setInterval (BlinkIt, 500);
+			var color = "red";
+			function BlinkIt () {
+			var blink = document.getElementById ("blink");
+			color = (color == "#ffffff")? "red" : "#ffffff";
+			blink.style.color = color;
+			blink.style.fontSize='36px';}
+		</script>
+		<div id="blink">ALERTA!!!!</div>
+		<div id="blink" onclick="parent.location='http://norfipc.com'">
+		</div>
+	</head>
+	<body>
+		<img  class="media" src="alerta.png">
+		<h1><br>Se est&aacute iniciando la conexi&oacuten con su cerebro</h1><br>
+		<h2>Por favor, est&aacutete lo m&aacutes relajado posible<h2>
+	</body>
+</html>
